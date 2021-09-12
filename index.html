@@ -1,1 +1,13 @@
-hellow world
+<script src="https://static.line-scdn.net/liff/edge/sersions/2.5.0/sdk.js"></script>
+<script>
+   async function main(){
+     await liff.init({ liffid: "1656414587-ng1bekLO" })
+     await liff.ShareTargetPicker([
+       {
+         type: "flex",
+         altText: "Flex Message From Share Target Picker",
+         contents:
+       }
+         ])
+       liff.closewindow()
+   }
